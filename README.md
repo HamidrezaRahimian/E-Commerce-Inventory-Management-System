@@ -1,4 +1,22 @@
-10 | E-Commerce Inventory Management System
+#10 | E-Commerce Inventory Management System DATA STRUCTURE
+Erstellen Sie ein Lagerverwaltungssystem für einen E-Commerce-Shop mit Datentypen wie String
+für SKU und Produktnamen, Int für Lagerbestand, Decimal für Preise und DateTime für Daten.
+String-Operationen sollen SKU-Codes validieren, Produktbeschreibungen zusammensetzen, Barcode-Daten generieren und Lagerstandortcodes formatieren. Datum-/Zeitoperationen müssen Lagerumschlagsraten und Lagerdauer berechnen, Ablaufdaten überwachen sowie Nachbestellzeitpunkte ermitteln. Definieren Sie Enums für ProductCategory (Electronics, Clothing, Food, HomeGarden, Sports, Books), StockStatus (InStock, LowStock, OutOfStock, Discontinued, Backordered), WarehouseLocation (MainWarehouse, RegionalCenter, ReturnCenter) und ProductCondition
+(New, Refurbished, OpenBox, Damaged). Erstellen Sie eine IInventoryManager-Schnittstelle mit
+AddStock, RemoveStock, TransferStock und CheckStockLevel. Überladen Sie die CalculateReorderPoint-Methode für verschiedene Berechnungsmodelle: Standard-Formel, saisonale Anpassung
+oder historische Daten. Überschreiben Sie ToString für die Product-Klasse zur formatierten Produktübersicht. Nutzen Sie Generalisierung durch eine generische Klasse Warehouse<T> where T :
+IStorable. Verwenden Sie ein Array für Lagerebenen, eine List<Product> für den Produktkatalog,
+ein HashSet<string> für eindeutige SKU-Codes, ein Dictionary<string, InventoryLevel> zur Bestandsverwaltung nach SKU, eine Queue<RestockOrder> für Nachbestellungen und einen Stack
+<StockMovement> für die Bewegungshistorie. Implementieren Sie Sortierung nach Bestandswert,
+Umschlagsrate oder Verfügbarkeit sowie Suchfunktionen nach Kategorie, Lieferant oder SKU.
+
+
+
+
+
+
+
+#10 | E-Commerce Inventory Management System
 a) Suchen Sie alle Produkte einer bestimmten Kategorie, deren Lagerbestand unter dem Mindestbestand liegt und die in den letzten 30 Tagen mindestens einmal verkauft wurden. Verwenden Sie Where-Klauseln zur Filterung nach ProductCategory-Enum, Bestandsvergleich
 (CurrentStock < MinimumStock) und Verkaufsdatum. Projizieren Sie auf ein Objekt mit Produktname, SKU, aktueller Bestand, Mindestbestand, Differenz und letztes Verkaufsdatum,
 sortiert nach Bestandsdifferenz aufsteigend (kritischste zuerst).
