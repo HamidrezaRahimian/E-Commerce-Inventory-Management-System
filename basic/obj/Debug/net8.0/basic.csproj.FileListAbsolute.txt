@@ -1,0 +1,15 @@
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/basic.GeneratedMSBuildEditorConfig.editorconfig
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/basic.AssemblyInfoInputs.cache
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/basic.AssemblyInfo.cs
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/basic.csproj.CoreCompileInputs.cache
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/basic.sourcelink.json
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/bin/Debug/net8.0/basic
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/bin/Debug/net8.0/basic.deps.json
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/bin/Debug/net8.0/basic.runtimeconfig.json
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/bin/Debug/net8.0/basic.dll
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/bin/Debug/net8.0/basic.pdb
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/basic.dll
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/refint/basic.dll
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/basic.pdb
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/basic.genruntimeconfig.cache
+/home/developer/Dokumente/E-Commerce-Inventory-Management-System/basic/obj/Debug/net8.0/ref/basic.dll
