@@ -14,6 +14,8 @@ namespace ECommerceInventorySystem.Models
         public DateTime? ExpiryDate { get; set; }
         public string Supplier { get; set; }
         public int Quantity { get; set; }
+        public int MinimumStock { get; set; }
+
 
         public override string ToString() =>
             $"{SKU} - {Name} [{Category}] ({Quantity}x, {Price:C}, Zustand: {Condition})";

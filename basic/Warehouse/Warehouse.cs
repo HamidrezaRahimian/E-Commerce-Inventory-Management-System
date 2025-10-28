@@ -12,5 +12,6 @@ namespace ECommerceInventorySystem.Warehouse
         public Dictionary<string, InventoryLevel> StockLevels { get; set; } = new Dictionary<string, InventoryLevel>();
         public Queue<RestockOrder> RestockOrders { get; set; } = new Queue<RestockOrder>();
         public Stack<StockMovement> StockMovements { get; set; } = new Stack<StockMovement>();
+        public List<SalesTransaction> SalesHistory { get; set; } = new List<SalesTransaction>();    
     }
 }
